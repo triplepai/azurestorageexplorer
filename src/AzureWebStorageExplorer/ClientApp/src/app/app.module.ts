@@ -17,6 +17,7 @@ import { TablesComponent } from './tables/tables.component'
 import { TabledataComponent } from './tabledata/tabledata.component'
 import { SharesComponent } from './shares/shares.component';
 import { FilesComponent } from './files/files.component'
+import { LocalFilesComponent } from './localfiles/localfiles.component'
 import { BaseComponent } from './base/base.component'
 
 import { UtilsService } from './services/utils/utils.service';
@@ -36,6 +37,7 @@ import { UtilsService } from './services/utils/utils.service';
     TabledataComponent,
     SharesComponent,
     FilesComponent,
+    LocalFilesComponent,
     BaseComponent
   ],
   imports: [
@@ -48,7 +50,8 @@ import { UtilsService } from './services/utils/utils.service';
       { path: 'containers', component: ContainersComponent },
       { path: 'queues', component: QueuesComponent },
       { path: 'tables', component: TablesComponent },
-      { path: 'files', component: SharesComponent }
+      { path: 'files', component: SharesComponent },
+      { path: 'localfiles', component: SharesComponent },
     ])
   ],
   providers: [UtilsService],

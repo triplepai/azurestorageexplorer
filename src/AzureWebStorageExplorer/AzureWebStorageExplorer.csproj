@@ -46,6 +46,7 @@
     <None Remove="ClientApp\src\app\base\base.component.ts" />
     <None Remove="ClientApp\src\app\blobs\blobs.component.ts" />
     <None Remove="ClientApp\src\app\containers\containers.component.ts" />
+    <None Remove="ClientApp\src\app\localfiles\localfiles.component.ts" />
     <None Remove="ClientApp\src\app\login\login.component.ts" />
     <None Remove="ClientApp\src\app\qmessages\qmessages.component.ts" />
     <None Remove="ClientApp\src\app\queues\queues.component.ts" />
@@ -71,6 +72,7 @@
     <TypeScriptCompile Include="ClientApp\src\app\base\base.component.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\blobs\blobs.component.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\containers\containers.component.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\localfiles\localfiles.component.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\login\login.component.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\qmessages\qmessages.component.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\queues\queues.component.ts" />
